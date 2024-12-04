@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  role_name: foreman_content_datadog
+  author: "Sven Meeus <sven.meeus@kangaroot.net>"
+  description: "Role for configuring Datadog repositories in a Foreman/Katello installation"
+  license: GPL-3.0-or-later
+  min_ansible_version: "2.13"
+  platforms:
+    - name: Enterprise Linux
+      versions:
+        - all
+  galaxy_tags:
+    - foreman
+    - katello
+    - satellite
+    - datadog
+dependencies: []
